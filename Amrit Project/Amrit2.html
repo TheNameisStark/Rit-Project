@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="icon" href="favicon.ico" type="Icon\favicon.ico"> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-image: url('Screenshot 2024-06-23 142629.png'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left;
+            position: relative;
+            text-align: center;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.5); /* Adjust transparency here */
+            z-index: -1;
+        }
+      
+        h1 {
+            color: #000000;
+            text-align: center; 
+            margin-top: 20px;
+            font-size: 3em;
+            padding: 20px; 
+            border: 3px solid #333;
+            background-color: #e8f5e9; 
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #000000;
+            text-align: center; 
+            margin-top: 0;
+            font-size: 2em;
+            font-family: Cursive;
+        }
+
+        h3 {
+            color: #000000;
+            text-align: right; 
+            margin-right: 437px;
+            margin-top: 0;        
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        iframe {
+            width: 502px;
+            height: 600px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        audio, video {
+            margin-bottom: 20px;
+            width: 600px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>MY PROJECT</h1>
+      <h2>Emperor Of The French</h2> 
+        <h3>-By Amrit</h3>
+
+    <div class="container">
+
+        
+        <h4>Napoleon Bonaparte (born 15 August 1769 – 5 May 1821), later known by his regnal name Napoleon I, was a French military officer and statesman who rose to prominence during the French Revolution and led a series of successful campaigns across Europe during the French Revolutionary and Napoleonic Wars from 1796 to 1815. He was the leader of the French Republic as First Consul from 1799 to 1804, then of the French Empire as Emperor of the French from 1804 to 1814, and briefly again in 1815. Click <a href="https://en.wikipedia.org/wiki/Napoleon" target="_blank">here</a> for more information. (Source- Wikipedia)</h4>
+
+        
+        <h2>Overview</h2>
+        <iframe src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Napoleon_at_the_Great_St._Bernard_-_Jacques-Louis_David_-_Google_Cultural_Institute.jpg/502px-Napoleon_at_the_Great_St._Bernard_-_Jacques-Louis_David_-_Google_Cultural_Institute.jpg"></iframe>
+
+        
+        <h2>The Napoleonic Wars (An Audio Overview)</h2>
+        <audio controls>
+            <source src="https://drive.google.com/uc?export=download&id=1i2vfASub5P3GZExFvOPE9wntEnv1WAXH" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        
+        <h2>The Nightmare Of The Europe (A Video Overview)</h2>
+        <video controls>
+            <source src="https://drive.google.com/uc?export=download&id=1h-qG3aQZ9CedmPkp5LsXBKJujOv6sIn0" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+
+    </div>
+
+</body>
+</html>
+
